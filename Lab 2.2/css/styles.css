@@ -1,0 +1,95 @@
+body {
+    background-color: red;
+}
+
+#container {
+    background-color: brown;
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+header {
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}
+header img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3.5em;
+    text-align: center;
+    color: snow;
+    text-shadow: 2px 2px black;
+}
+
+nav {
+    background-color:rgb(158, 105, 105);
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: rgb(7, 51, 7);
+    height: 40px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-break:  40px; 
+    color: rgb(76, 76, 231);
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: coral;
+}
+
+main {
+    background-color:rgb(88, 85, 85);
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+
+}
+
+main h2 {
+    text-align: center;
+    color: rgb(63, 4, 4);
+    font-size: 2em;
+}
+
+main img {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+   
+
+}
+
+footer {
+    background-color:rgb(175, 123, 45) ;
+    padding: 60px 0;
+    color: rgb(241, 122, 140);
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.active {
+    background-color: burlywood;
+    color: coral;
+}
+
+pro_head {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5;
+}
