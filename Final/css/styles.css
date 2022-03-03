@@ -1,5 +1,6 @@
 body {
     background-color: darkblue;
+    font-family: 'Dancing Script', cursive;
 }
 
 img {
@@ -21,12 +22,14 @@ header {
     background-image: url('../images/569608.jpg');
     background-size: cover;
     padding: 60px 0;
+    font-family: 'Dancing Script', cursive;
 }
 
 header h1 {
     color: black;
     text-shadow: 2px 2px 2px whitesmoke;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 nav ul {
@@ -102,6 +105,27 @@ footer {
 .single_col {
     width: 83%;
 }
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.gallary_img {
+    border: 4px solid gold;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+
+
 
 
 
@@ -185,5 +209,24 @@ footer {
    }
    .single_col {
     width: 100%;
+}
+
+table, tr, td {
+    border: 4px goldenrod;
+    padding: 10px;
+    margin: 10px;
+}
+
+table img {
+    width: 100%;
+}
+
+
+.gallery {
+    display: none;
+}
+
+table {
+    display: block;
 }
 }
